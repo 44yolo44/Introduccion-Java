@@ -1,7 +1,3 @@
-Para mejorar la descripción de tu curso de introducción a Java, podrías proporcionar más detalles sobre el contenido del curso y sus objetivos. Aquí tienes una versión mejorada:
-
----
-
 # Introducción a Java
 
 Este repositorio contiene los ejercicios y materiales del curso de introducción a Java disponible en el canal de YouTube [💊pildorasinformaticas](https://www.youtube.com/user/pildorasinformaticas).
