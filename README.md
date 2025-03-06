@@ -1,6 +1,6 @@
 # Introducción a Java
 
-Este repositorio contiene los ejercicios y materiales del curso de introducción a Java disponible en el canal de YouTube [💊pildorasinformaticas](https://www.youtube.com/user/pildorasinformaticas).
+Este temario está diseñado para que el estudiante desarrolle la capacidad de implementar aplicaciones utilizando la programación orientada a objetos con Java
 
 ## Descripción del Curso
 
