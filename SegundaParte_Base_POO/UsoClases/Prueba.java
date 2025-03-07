@@ -16,10 +16,16 @@ public class Prueba {
 		trabajador1.cambiaSeccion("RR.HH");
 		//trabajador1.cambiaNombre("maria");
 		
-		System.out.println(trabajador1.getDatos());
+		/*System.out.println(trabajador1.getDatos());
 		System.out.println(trabajador2.getDatos());
 		System.out.println(trabajador3.getDatos());
-		System.out.println(trabajador4.getDatos());
+		System.out.println(trabajador4.getDatos());*/
+		
+		
+		System.out.println(trabajador1.getDatos()+"\n"+trabajador2.getDatos()
+		+"\n"+trabajador3.getDatos()+"\n"+trabajador4.getDatos());
+		
+		System.out.println(empleados.getIdSiguiente());
 		
 
 	}
@@ -59,12 +65,20 @@ class empleados {
 		return "El nombre es : "+nombre+" y la seccion es : "+seccion+" y el Id es : "+id;
 	}
 	
+	
+	public static String getIdSiguiente() {
+		
+		return "El ID siguiente es : "+idSiguiente;
+	}
+	
+	
 	//campo de clase 
 	private final String nombre ; // !!!constante 
 	private String seccion;
 	
 	private int id;
 	
+	//variable de clase (por el static) 
 	private static int idSiguiente = 1;
 }
 
