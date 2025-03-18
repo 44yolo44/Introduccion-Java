@@ -24,6 +24,8 @@ Este temario está diseñado para que el estudiante desarrolle la capacidad de i
 
 - **Canal de YouTube:** [💊pildorasinformaticas](https://www.youtube.com/user/pildorasinformaticas)
 - **Repositorio GitHub:** Este repositorio contiene los ejemplos y ejercicios presentados a lo largo del curso.
+- ### Curso de Ejercicios de Java
+- [Ejercicios de Java](https://www.exercisesjava.com/es/)
 
 ## Recursos Adicionales
 
