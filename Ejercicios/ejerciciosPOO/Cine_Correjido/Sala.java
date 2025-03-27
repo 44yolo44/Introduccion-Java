@@ -40,15 +40,16 @@ public class Sala {
 	}
 	
 	private void inicializarAsientos () {
-			
-		char [] letras = {'A','B','C','D','E','F','G','H','I','J','K','L'};
 		
 		for (int i = 0; i < FILAS; i++) {
 			
 			for (int j = 0; j < COLUMNAS; j++) {
 				
 				asientos[i][j] = new Asientos(i, j);
-				asientos[i][j].setLetraColumna(letras[j]);
+				
+				//recuerda que los char se suman
+				asientos[i][j].setLetraColumna((char)('A'+j));
+				
 				asientos[i][j].setOcupado(false);
 			}
 		}
