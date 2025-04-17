@@ -20,7 +20,9 @@ public class numeroDeAmstromg {
 			
 			int num = entrada.nextInt();
 			
-			System.out.println(num+" es numero de amstrong ?  :"+esAmstrong(num));
+			System.out.println(num+" es numero de amstrong ? (1) :"+esAmstrong(num));
+			
+			System.out.println(num+" es numero de amstrong ? (2) :"+esArmstrong2(num));
 			
 			
 		} catch (InputMismatchException e) {
@@ -32,7 +34,7 @@ public class numeroDeAmstromg {
 
 	}
 	
-	
+	//MI FORMA
 	public static boolean esAmstrong(int num) {
 		
 		if (num<=0) {
@@ -56,6 +58,25 @@ public class numeroDeAmstromg {
 			}
 
 		}
+	}
+	
+	//Optima
+	
+	public static boolean esArmstrong2(int num) {
+		
+		if(num <= 0 ) return false;
+		
+		int original = num ;
+		int suma = 0;
+		int numDigitos = String.valueOf(num).length();
+		
+		while (num > 0) {
+			int digito = num % 10;
+			suma += Math.pow(digito, numDigitos);
+			num /=10; //por como funcionan los int hacer eso eso quitarle el ultimo numero
+		}
+		
+		return suma == original;
 	}
 
 
