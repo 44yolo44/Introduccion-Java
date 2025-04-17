@@ -73,7 +73,7 @@ public class numeroDeAmstromg {
 		while (num > 0) {
 			int digito = num % 10;
 			suma += Math.pow(digito, numDigitos);
-			num /=10; //por como funcionan los int hacer eso eso quitarle el ultimo numero
+			num /=10; //por como funcionan los int hacer eso como quitarle el ultimo numero
 		}
 		
 		return suma == original;
