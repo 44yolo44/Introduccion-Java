@@ -1,6 +1,3 @@
-Entendido, aquí tienes el nuevo `README.md` sin el llamado explícito para que otros lo lean:
-
-```markdown
 # Introducción a Java
 
 Este temario está diseñado para desarrollar la capacidad de implementar aplicaciones utilizando la programación orientada a objetos con Java.
