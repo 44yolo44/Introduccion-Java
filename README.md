@@ -43,5 +43,3 @@ Este temario está diseñado para desarrollar la capacidad de implementar aplica
 
 Se han añadido retos para complementar los ejercicios del curso. Estos retos están principalmente tomados de [Retos de Programación](https://retosdeprogramacion.com/ejercicios), una fuente excelente para practicar y mejorar habilidades en Java mediante casos prácticos.
 ```
-
-Si necesitas más cambios, no dudes en pedírmelo.
