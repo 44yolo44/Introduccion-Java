@@ -34,7 +34,7 @@ public class MayusculaPrimeraLetra {
 			} else {
 				if (nuevapalabra && c >= 'a' && c <= 'z') {
 					resultado.append((char)(c - 32)); //convierte a mayuscula 
-					//mayúscula de una letra está 32 posiciones antes que su versión minúscula en el código ASCII.
+					//la mayuscula de una letra está 32 posiciones antes de su  minúscula en el codigo ascii
 				} else {
 					resultado.append(c);
 				}
