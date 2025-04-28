@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Ejercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introduccion-Java.iml" filepath="$PROJECT_DIR$/Introduccion-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeraParte_Sintaxis/PrimeraParte_Sintaxis.iml" filepath="$PROJECT_DIR$/PrimeraParte_Sintaxis/PrimeraParte_Sintaxis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SegundaParte_Base_POO/SegundaParte_Base_POO.iml" filepath="$PROJECT_DIR$/SegundaParte_Base_POO/SegundaParte_Base_POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemasAvanzados/TemasAvanzados.iml" filepath="$PROJECT_DIR$/TemasAvanzados/TemasAvanzados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/ejerciciosPOO/ejerciciosPOO.iml" filepath="$PROJECT_DIR$/Ejercicios/ejerciciosPOO/ejerciciosPOO.iml" />
+    </modules>
+  </component>
+</project>
